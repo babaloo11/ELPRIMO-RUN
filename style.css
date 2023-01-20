@@ -1,0 +1,27 @@
+body{
+    background-image:url(bg.jpg);
+    background-size:cover;
+    background-position:20% ;
+}
+#IGRA{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    z-index: 2;
+    top:250px;
+}
+img{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+@media (max-width:900px){
+    /* img{
+        width: 370px;
+    }
+    svg{
+        width: 370px;
+    } */
+}
